@@ -1,0 +1,14 @@
+markdown: kramdown
+highlighter: pygments
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
+
+repository: https://github.com/misol
+
+collections:
+  docs:
+    output: true
+
+name: misol's blog
+description: 지킬 설치 없이 블로그 만들어보는
+url: https://misol's.github.io
