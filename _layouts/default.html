@@ -1,14 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="ko-KR">
 <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>{{ page.title }} - misol's blog</title>
+	<style>#wrap{max-width:960px;margin:0px auto;padding:10px 10px;}</style>
 </head>
-
-<body class="wrap">
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+<body>
+<div id="wrap">
+	{% include header.html %}
+	{{ content }}
+	{% include footer.html %}
 </body>
 </html>
