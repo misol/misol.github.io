@@ -3,12 +3,12 @@ highlighter: pygments
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: ""
 
-repository: https://github.com/misol
+repository: https://github.com/misol/misol.github.io
 
 collections:
   docs:
     output: true
 
 name: misol's blog
-description: 지킬 설치 없이 블로그 만들어보는
-url: https://misol's.github.io
+description: 한참 한참 만들어가는 misol의 블로그
+url: https://misol.github.io
