@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: pygments
-permalink: /post/:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title/
 excerpt_separator: ""
 
 repository: https://github.com/misol/misol.github.io
